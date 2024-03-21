@@ -25,7 +25,7 @@ namespace CanvasApplicationUnitTests
         public void AddingWidget_ShouldIncreaseWidgetsCount()
         {
             decimal height = 30;
-            decimal width = 40;
+            decimal width = 30;
 
             int x = 20;
             int y = 40;
@@ -53,12 +53,12 @@ namespace CanvasApplicationUnitTests
         public void Canvas_ShouldContainAllWidgetDrawOutputs_WhenMultipleWidgetsAdded()
         {
             decimal height = 30;
-            decimal width = 40;
+            decimal width = 30;
 
             int x = 20;
             int y = 40;
 
-            var expectedSquareOutput = $"Square: 1200.000; X: {x}, Y: {y}";
+            var expectedSquareOutput = $"Square: 900.000; X: {x}, Y: {y}";
             var expectedCircleOutput = $"Circle: 314.159; X: {x + 2}, Y: {y + 2}";
 
 

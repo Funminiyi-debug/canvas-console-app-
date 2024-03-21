@@ -11,9 +11,8 @@ namespace CanvasApplication.Widgets
         }
 
         private string name = "Rectangle";
-        public int XCoordinate { get; set; }
-        public int YCoordinate { get; set; }
-
+        public int XCoordinate { get; set; } = 0;
+        public int YCoordinate { get; set; } = 0;
         public string Name { get { return name; } }
 
         public string Draw()

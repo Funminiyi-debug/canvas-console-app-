@@ -1,6 +1,6 @@
 ﻿namespace CanvasApplication.Abstractions
 {
-    public class CyclicalWidgets : ISizeableWidget
+    public abstract class CyclicalWidgets : ISizeableWidget
     {
         private decimal VerticalRadius { get; }
         private decimal HorizontalRadius { get; }

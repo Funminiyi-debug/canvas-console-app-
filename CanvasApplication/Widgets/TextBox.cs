@@ -33,9 +33,8 @@
 
         public new string Draw()
         {
-            base.Draw();
-            return
-                $" Background: {BackgroundColor}" +
+            return base.Draw() +
+                $" Background: {BackgroundColor};" +
                 $" Text: {Text}";
 
         }
